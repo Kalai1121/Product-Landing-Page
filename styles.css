@@ -1,0 +1,39 @@
+#header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+#nav-bar {
+    display: flex;
+}
+
+.nav-link {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+}
+
+#video {
+    width: 100%;
+    max-width: 800px;
+    margin: 20px 0;
+}
+
+#form {
+    margin: 20px 0;
+}
+
+/* Add your media query for responsiveness */
+@media screen and (max-width: 600px) {
+    /* Your responsive styles go here */
+}
+
+/* Example of using Flexbox */
+#nav-bar {
+    display: flex;
+    justify-content: space-around;
+}
